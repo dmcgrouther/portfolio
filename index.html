@@ -54,7 +54,7 @@
     <div id = "about-me">
         <h2>A little about me...</h2>
         <p>I am born and raised in the Bay Area and I currently reside in Menlo Park. Besides living in Arizona for four years getting my bachelors degree I have been in the SF bay area my whole life</p>
-        <p>Besides coding, here are a few things I like to do in my spare time. I have a wide array of hobbies.</p>
+        <p>Here are some activities I like to do in my spare time: </p>
         <ul>
             <li>All things scifi and fantasy! I really like Babylon 5, Game Of Thrones, and The Legend Of The Galactic Heroes.</li>
             <li>Painting! I have been painting miniatures since like... 1999 or something and I think its a great way to enhance my artistic capabilties.</li>
@@ -63,15 +63,30 @@
             <li>Tabletop gaming! Board games, miniatures, card games, Role playing games.</li>
             <li>Trying new things, expecially food and beverage.</li>
             <li>Outdoors: Hiking, golf, shooting, wind surfing, and all sorts of fun stuff.</li>
-            <li>For music I like all genres, but I particularly like Electronic, Classic Rock, and Heavy Metal.</li>
+            <!-- <li>For music I like all genres, but I particularly like Electronic, Classic Rock, and Heavy Metal.</li> -->
             <!-- <li>Learning new technologies and Python scripting... Okay, so maybe technology is my life! I enjoy writing python scripts and web scraping in addition to fullstack applications. Okay, so more coding =).</li> -->
             <li>Meeting new people! What are you waiting for lets connect! =)</li>
         </ul>
     </div>
-        <div id = "contact-me">
-            <p>dbmcgrouther@gmail.com</p>
-            <button class="contact" onclick=" window.open('https://github.com/dmcgrouther','_blank')"> Github</button>
-            <button class="contact" onclick=" window.open('https://www.linkedin.com/in/davidbmcgrouther/','_blank')"> LinkedIn</button>
+    <div id = "contact-me-section">
+        <!-- below div is to submit a message directly to my email -->
+        <div id="contact-me-form">
+            <form action="https://formspree.io/xzbzelle" method="POST">
+            <label>
+                Your email:
+                <input type="text" name="_replyto">
+            </label>
+            <label>
+                Your message:
+                <textarea name="message"></textarea>
+            </label>
+            <!-- your other form fields go here -->
+            <button type="submit">Send</button>
+            </form>
         </div>
+        <p>dbmcgrouther@gmail.com</p>
+        <button class="contact" onclick=" window.open('https://github.com/dmcgrouther','_blank')"> Github</button>
+        <button class="contact" onclick=" window.open('https://www.linkedin.com/in/davidbmcgrouther/','_blank')"> LinkedIn</button>
+    </div>
 </body>
 </html>
