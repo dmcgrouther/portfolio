@@ -23,8 +23,8 @@ p, li, label {
 }
 
 * {
-    margin-left: 0.4%;
-    margin-right: 0.4%;
+    margin-left: 1%;
+    margin-right: 1%;
 }
 
 #title-section {
@@ -79,9 +79,35 @@ p, li, label {
     border: 4px double rgb(0, 205, 219);
     font-size: 1.2em;
     text-align: center;
-    box-shadow: 7px 6px 5px 0px rgba(0,0,0,0.75);
 }
 
 textarea {
     width: 350px;
+}
+
+/* use the following if tou make list with contact items
+#contact-items { 
+    overflow-x:hidden;
+    white-space:nowrap; 
+    height: 1em;
+    width: 100%;
+}  */
+
+.contact-info {  
+    display:inline; 
+}  
+
+button {
+    font-family: 'Orbitron', sans-serif;
+    border: 1px solid rgb(0, 205, 219);
+    border-radius: 4px;
+}
+
+#contact-me {
+    border-radius: 2px;
+}
+
+.contact-item {
+    display: inline-block;
+    margin-left: 10px; 
 }

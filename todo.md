@@ -1,9 +1,11 @@
 put in pictures of code?
 
+correct pictures of projects.
+
 resume
 
-contact form
+navbar that can go thru page
 
 carousel of your hobbies at bottom?
 
-link for contact info, github, linkedin
+different font? header is out of wack with hard lines
