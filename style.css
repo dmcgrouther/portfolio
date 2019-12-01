@@ -1,3 +1,36 @@
+/* below code to offset the navbar not expanding all the way */
+body {margin:0;} 
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: black;
+    background-image: linear-gradient(black, rgb(48, 48, 48),  black);
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the bottom of the page */
+    width: 100%; /* Full width */
+    box-shadow: 2px 2px 5px black;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Orbitron', sans-serif;
+    -webkit-text-stroke-width: 0.25px; 
+    -webkit-text-stroke-color: rgb(0, 205, 219); 
+    text-shadow: 2px 2px 5px black;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    /* background-color: #ddd;
+    color: black; */
+    color: rgb(0, 205, 219);
+    transition-duration: 0.35s;
+  }
+  
 body {
     background-image: url("deep-blue-space_original.jpg");
     background-position: center center;
@@ -22,12 +55,20 @@ p, li, label {
     text-shadow: 2px 2px 5px black;
 }
 
-* {
+/* below code is without the navbar, if navbar goes out include this */
+/* * {
     margin-left: 1%;
     margin-right: 1%;
+} */
+
+/* below is code for when you have navbar, if navbar goes, take this out too */
+#title-section, #intro-section, #portfolio-section, #about-me, #contact-me {
+    margin-left: 3%;
+    margin-right: 3%;
 }
 
 #title-section {
+    margin-top: 4%; /*this is so the navbar doesnt cover the title */
     margin-bottom: 2%;
     font-size: 1.2em;
 }
@@ -61,7 +102,7 @@ p, li, label {
     margin-bottom: 16%;
 }
 #project-1 {
-    margin-bottom: 14%;
+    margin-bottom: 11%;
 }
 #project-2 {
     margin-bottom: 11%;
@@ -105,7 +146,7 @@ button {
 }
 
 #contact-me {
-    border-radius: 2px;
+    border-radius: 2.5px;
     box-shadow: 8px 8px 5px 0px rgba(0,0,0,0.7);
 }
 

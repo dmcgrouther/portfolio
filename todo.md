@@ -1,6 +1,6 @@
 resume
 
-navbar that can go thru page
+navbar that can go thru page... style it too.
 
 carousel of your hobbies at bottom?
 
