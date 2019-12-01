@@ -53,6 +53,7 @@ p, li, label {
     max-width: 400px;
     float: left;
     margin-right: 1%;
+    box-shadow: 8px 8px 5px 0px rgba(0,0,0,0.7);
 }
 
 /* each project needs different bottom margin */
@@ -105,6 +106,7 @@ button {
 
 #contact-me {
     border-radius: 2px;
+    box-shadow: 8px 8px 5px 0px rgba(0,0,0,0.7);
 }
 
 .contact-item {
