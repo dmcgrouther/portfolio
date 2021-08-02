@@ -56,6 +56,11 @@ p, li, label {
     text-shadow: 2px 2px 5px black;
 }
 
+.project-link {
+    /* text-decoration: none; */
+    color: inherit;
+  }
+
 /* below code is without the navbar, if navbar goes out include this */
 /* * {
     margin-left: 1%;
@@ -99,6 +104,12 @@ p, li, label {
 }
 
 /* each project needs different bottom margin */
+#event-finder {
+    margin-bottom: 12%;
+}
+#landing-page {
+    margin-bottom: 14%;
+}
 #project-0 {
     margin-bottom: 16%;
 }
