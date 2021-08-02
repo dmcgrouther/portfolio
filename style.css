@@ -97,6 +97,26 @@ p, li, label {
     font-size: 1.2em;
 }
 
+@media only screen and (max-width: 1000px) {
+    #title-section {
+        margin-top: 5%;
+    }
+  }
+@media only screen and (max-width: 800px) {
+    #title-section {
+        margin-top: 8.5%;
+    }
+  }
+@media only screen and (max-width: 400px) {
+    #title-section {
+        margin-top: 9.5%;
+    }
+    .topnav a {
+        /* float: none; */
+        padding: 9px;
+    }
+  }
+
 #picofme {
     float: left;
     margin-right: 1%;
@@ -158,6 +178,12 @@ textarea {
     width: 350px;
 }
 
+@media only screen and (max-width: 400px) {
+    textarea {
+        width: 339px;
+    }
+}
+
 /* use the following if tou make list with contact items
 #contact-items { 
     overflow-x:hidden;
@@ -181,7 +207,22 @@ button {
     box-shadow: 8px 8px 5px 0px rgba(0,0,0,0.7);
 }
 
+@media only screen and (max-width: 400px) {
+    #contact-me {
+        margin-bottom: 20%;
+    }
+    input {
+        width: 200px
+    }
+}
+
 .contact-item {
     display: inline-block;
     margin-left: 10px; 
+}
+
+@media only screen and (max-width: 400px) {
+    .contact-item {
+        margin-bottom: 2.5%;
+    }
 }
