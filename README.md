@@ -1,5 +1,3 @@
-# portfolio
-
 Here is a little bit more technical information about my projects.
 
 Event Finder
